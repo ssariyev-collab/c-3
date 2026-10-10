@@ -27,11 +27,11 @@
 //             if (isAvailable)
 //             {
 //                 isAvailable = false;
-//                 Console.WriteLine($"'{Title}' kitabı başarıyla ödünç alındı.");
+//                 Console.WriteLine($"'{Title}' kitab alındı.");
 //             }
 //             else
 //             {
-//                 Console.WriteLine($"'{Title}' kitabı zaten başkası tarafından ödünç alınmış!");
+//                 Console.WriteLine($"'{Title}' kitab  başqasi terefden alınmış!");
 //             }
 //         }
 
@@ -40,11 +40,11 @@
 //             if (!isAvailable)
 //             {
 //                 isAvailable = true;
-//                 Console.WriteLine($"'{Title}' kitabı başarıyla iade edildi.");
+//                 Console.WriteLine($"'{Title}' kitab iade edildi.");
 //             }
 //             else
 //             {
-//                 Console.WriteLine($"'{Title}' kitabı zaten kütüphanede.");
+//                 Console.WriteLine($"'{Title}' kitab kitabxanadadir.");
 //             }
 //         }
 
@@ -68,7 +68,7 @@
 //                 new Book("Kürk Mantolu Madonna", "Sabahattin Ali", "978-9753638029")
 //             };
 
-//             Console.WriteLine("=== İlk Kütüphane Listesi ===");
+//             Console.WriteLine("=== İlk Kitabxana Listesi ===");
 //             foreach (var book in library)
 //             {
 //                 book.DisplayInfo();
@@ -78,7 +78,7 @@
 //             library[0].BorrowBook();
 //             library[3].BorrowBook();
 
-//             Console.WriteLine("\n=== Son Kütüphane Durumu ===");
+//             Console.WriteLine("\n=== Son Kitabxana Vexiyyeti ===");
 //             foreach (var book in library)
 //             {
 //                 book.DisplayInfo();
